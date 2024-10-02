@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap');
+
+/* 전체 글꼴 설정 */
+* {
+    font-family: "Nanum Gothic Coding", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* 가이드 라인 */
+/* .g {
+    border: 1px solid rgb(192, 2, 255);
+} */
+
+/* 헤더 */
+.header {
+    height: 100px;
+    background-color: #B8F25A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 네이게이터 */
+.navigator {
+    background-color: #D8E8CF;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* 네잎클로버 배경 */
+.clover {
+    background-image: url(../img/clover.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+
+    opacity: 90%;
+
+    width: 1000px;
+    height: 400px;
+
+    margin: auto;
+    margin-top: 8%;
+    margin-bottom: 5%;
+
+    border-radius: 52px;
+    box-shadow: inset 0 0 6px 6px #277533;
+
+}
+
+.todayWeather {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15%;
+    margin-left: 45%;
+    color: white;
+}
+
+.w-icon{
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+.weatherText{
+    margin-top: 10px;
+}
+
+.weatherIcon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
