@@ -16,6 +16,38 @@
     background-color: #D8E8CF;
 }
 
+.yysmycardsbox {
+
+    height: 360px;
+    width: 250px;
+    border-radius: 30px;
+    margin-bottom: 200px;
+    
+    margin: 30px;
+
+    background-image: url(../img/yys.jpg);
+    background-color: green;
+    background-repeat: no-repeat;
+    background-position:right -300px top 0px;
+    border-radius: 30px;
+}
+
+.hjymycardsbox {
+
+    height: 360px;
+    width: 250px;
+    border-radius: 30px;
+    margin-bottom: 200px;
+    
+    margin: 30px;
+
+    background-image: url(../img/hjy.jpg);
+    background-color: green;
+    background-repeat: no-repeat;
+    background-position:right -600px top 0px;
+    border-radius: 30px;
+}
+
 .mycards {
     background-color: #BFE9B4;
     height: 670px;
@@ -31,21 +63,7 @@
     box-shadow: 5px 5px 5px gray;
 }
 
-.mycardsbox {
-    /* background-color: white; */
-    height: 360px;
-    width: 250px;
-    border-radius: 30px;
-    margin-bottom: 250px;
-}
 
-.image {
-    background-image: url(../img/yys.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100% 100%;
-    border-radius: 30px;
-}
 
 .mytitle {
     background-color: transparent;
@@ -53,7 +71,7 @@
     width: 150px;
     border-radius: 30px;
 
-    margin: -270px auto auto auto;
+    margin: -20px auto auto auto;
 
     display: flex;
     flex-direction: column;
