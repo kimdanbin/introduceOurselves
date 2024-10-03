@@ -1,3 +1,8 @@
+/* 가이드 라인 */
+.g {
+    border: 1px solid rgb(192, 2, 255);
+}
+
 .header {
     height: 100px;
     background-color: #B8F25A;
@@ -27,11 +32,19 @@
 }
 
 .mycardsbox {
-    background-color: white;
+    /* background-color: white; */
     height: 360px;
     width: 250px;
     border-radius: 30px;
     margin-bottom: 250px;
+}
+
+.image {
+    background-image: url(../img/yys.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    border-radius: 30px;
 }
 
 .mytitle {
@@ -57,6 +70,7 @@
 
     margin-top: 10px;
 }
+
 .totalcard {
     width: 2000px;
 
