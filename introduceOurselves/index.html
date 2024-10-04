@@ -7,93 +7,17 @@
     <title>Introduce Ourselves</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap');
-
-        /* 전체 글꼴 설정 */
-        * {
-            font-family: "Nanum Gothic Coding", monospace;
-            font-weight: 400;
-            font-style: normal;
-        }
-
-        .header {
-            height: 120px;
-            background-color: #B8F25A;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .header > div {
-            font-size: x-large;
-            font-weight: bold;
-        }
-
-        .navigator {
-            background-color: #D8E8CF;
-        }
-
-        .mycards {
-            background-color: #BFE9B4;
-            height: 670px;
-            width: 300px;
-            margin: 30px auto 0px auto;
-            border-radius: 30px;
-
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-
-            box-shadow: 5px 5px 5px gray;
-        }
-
-        .mycardsbox {
-            background-color: white;
-            height: 360px;
-            width: 250px;
-            border-radius: 30px;
-            margin-bottom: 250px;
-        }
-
-        .mytitle {
-            background-color: transparent;
-            height: 250px;
-            width: 150px;
-            border-radius: 30px;
-
-            margin: 330px auto auto auto;
-
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .mytitle>button {
-            background-color: white;
-            width: 150px;
-            height: 45px;
-            border-radius: 30px;
-            border: 1px solid green;
-
-            margin-top: 10px;
-        }
-
-        .nav-link {
-            color: #96A993;
-            font-weight: bold;
-        }
-    </style>
+    <!-- 외부 스타일 시트 -->
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
     <!-- 헤더 부분 -->
     <div class="header">
-        <div>4조 사줘</div>
-        <div>Introduce Ourselves</div>
+        <a class="home" href="./index.html">
+            <div>4조 사줘</div>
+            <div>Introduce Ourselves</div>
+        </a>
     </div>
     <!-- 네비게이션 바 -->
     <div class="navigator">
