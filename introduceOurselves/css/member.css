@@ -1,0 +1,166 @@
+/* 가이드 라인 */
+/* .g {
+    border: 1px solid rgb(192, 2, 255);
+} */
+
+.header {
+
+    height: 100px;
+    background-color: #B8F25A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigator {
+
+    background-color: #D8E8CF;
+}
+
+.kdbcardsbox {
+
+    height: 360px;
+    width: 250px;
+    border-radius: 30px;
+    margin-bottom: 200px;
+    
+    margin: 30px;
+
+    background-image: url(../img/kdb.jpg);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.yyscardsbox {
+
+    height: 360px;
+    width: 250px;
+    border-radius: 30px;
+    margin-bottom: 200px;
+    
+    margin: 30px;
+
+    background-image: url(../img/yys.jpg);
+    background-color: green;
+    background-repeat: no-repeat;
+    background-position:right -300px top 0px;
+    border-radius: 30px;
+}
+
+.jdhcardsbox {
+
+    height: 360px;
+    width: 250px;
+    border-radius: 30px;
+    margin-bottom: 200px;
+    
+    margin: 30px;
+
+    background-image: url(../img/jdh.jpg);
+    background-color: green;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.hjycardsbox {
+
+    height: 360px;
+    width: 250px;
+    border-radius: 30px;
+    margin-bottom: 200px;
+    
+    margin: 30px;
+
+    background-image: url(../img/hjy.jpg);
+    background-color: green;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.rbgcardsbox {
+
+    height: 360px;
+    width: 250px;
+    border-radius: 30px;
+    margin-bottom: 200px;
+    
+    margin: 30px;
+
+    background-image: url(../img/rbg.jpg);
+    background-color: green;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    border-radius: 30px;
+
+}
+
+.mycards {
+
+    background-color: #BFE9B4;
+    height: 670px;
+    width: 300px;
+    margin: 30px auto 0px auto;
+    border-radius: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 5px 5px 5px gray;
+
+}
+
+
+
+.mytitle {
+
+    background-color: transparent;
+    height: 250px;
+    width: 150px;
+    border-radius: 30px;
+
+    margin: -50px auto auto auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.mytitle>button {
+
+    background-color: white;
+    width: 150px;
+    height: 45px;
+    border-radius: 30px;
+    border: 1px solid green;
+
+    margin-top: 10px;
+}
+
+.totalcard {
+
+    width: 2000px;
+
+    margin: 30px auto 0px auto;
+}
+
+.mycardsbox>button {
+    background-color: white;
+    height: 360px;
+    width: 250px;
+    border-radius: 30px;
+    margin-bottom: 250px;
+    border: white;
+}
