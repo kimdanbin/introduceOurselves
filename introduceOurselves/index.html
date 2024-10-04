@@ -18,12 +18,17 @@
         }
 
         .header {
-            height: 100px;
+            height: 120px;
             background-color: #B8F25A;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
+        }
+
+        .header > div {
+            font-size: x-large;
+            font-weight: bold;
         }
 
         .navigator {
@@ -76,6 +81,11 @@
 
             margin-top: 10px;
         }
+
+        .nav-link {
+            color: #96A993;
+            font-weight: bold;
+        }
     </style>
 </head>
 
@@ -89,11 +99,10 @@
     <div class="navigator">
         <header class="d-flex justify-content-center py-3">
             <ul class="nav nav-pills">
-                <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                <!-- <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li> -->
+                <li class="nav-item"><a href="./team.html" class="nav-link">Team</a></li>
+                <li class="nav-item"><a href="./members.html" class="nav-link">Members</a></li>
+                <li class="nav-item"><a href="./join.html" class="nav-link">Join</a></li>
             </ul>
         </header>
     </div>
@@ -113,7 +122,6 @@
                 <h1>이름칸</h1>
                 <button>수정하기</button>
                 <button>삭제하기</button>
-                <p>dkdkdkdk</p>
             </div>
         </div>
     </div>
