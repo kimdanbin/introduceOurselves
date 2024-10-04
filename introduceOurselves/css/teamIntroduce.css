@@ -24,19 +24,23 @@
     justify-content: center;
 }
 
+.header > div {
+    font-size: x-large;
+    font-weight: bold;
+}
+
 /* 네이게이터 */
 .navigator {
     background-color: #D8E8CF;
 }
 
-.home {
+.team {
     display: flex;
     flex-direction: column;
-
 }
 
 /*소개 배경 */
-.clover {
+.teamIntro {
     background-color: #D8E8CF;
     /* background-image: url(../img/clover.png); */
     background-repeat: no-repeat;
@@ -55,16 +59,18 @@
 
     box-shadow: inset 0 0 6px 6px #cae5bc;
 
+    
+
 }
 
-.todayWeather {
+.teamDescription {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     color: rgb(66, 66, 66);
 
-    margin-top: 13%;
+    margin-top: 6%;
     margin-left: 6%;
     margin-right: 6%;
 }
@@ -75,4 +81,17 @@
     text-align: center;
     /* 행간 */
     line-height: 2.1;
+}
+
+.teamPicture {
+    background-image: url(../img/team4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    border-radius: 20px;
+
+    width: 350px;
+    height: 75px;
+
+    margin-bottom: 5%;
 }
