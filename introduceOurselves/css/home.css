@@ -82,3 +82,28 @@
     justify-content: center;
 }
 
+
+/* 헤더, 네이게이터  */
+
+.header {
+    height: 120px;
+    background-color: #B8F25A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header > div {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.navigator {
+    background-color: #D8E8CF;
+}
+
+.nav-link {
+    color: #96A993;
+    font-weight: bold;
+}
