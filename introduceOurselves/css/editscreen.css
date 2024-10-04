@@ -61,3 +61,7 @@ input {
 button{
     background-color: #D8E8CF;
 }
+
+.content{
+    width: 300px;
+}
