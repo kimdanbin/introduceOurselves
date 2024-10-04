@@ -27,52 +27,6 @@
             background-color: #D8E8CF;
         }
 
-        .mycards {
-            background-color: #BFE9B4;
-            height: 670px;
-            width: 300px;
-            margin: 30px auto 0px auto;
-            border-radius: 30px;
-
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-
-            box-shadow: 5px 5px 5px gray;
-        }
-
-        .mycardsbox {
-            background-color: white;
-            height: 360px;
-            width: 250px;
-            border-radius: 30px;
-            margin-bottom: 250px;
-        }
-
-        .mytitle {
-            background-color: transparent;
-            height: 250px;
-            width: 150px;
-            border-radius: 30px;
-
-            margin: 330px auto auto auto;
-
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .mytitle>button {
-            background-color: white;
-            width: 150px;
-            height: 45px;
-            border-radius: 30px;
-            border: 1px solid green;
-
-            margin-top: 10px;
-        }
 
         .nav-link {
             color: #96A993;
