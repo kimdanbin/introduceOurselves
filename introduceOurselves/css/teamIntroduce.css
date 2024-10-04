@@ -15,8 +15,10 @@
 } */
 
 /* 헤더 */
-.header {
-    height: 100px;
+.home {
+    height: 120px;
+    color: black;
+    text-decoration-line: none;
     background-color: #B8F25A;
     display: flex;
     flex-direction: column;
@@ -24,19 +26,19 @@
     justify-content: center;
 }
 
-.header > div {
+.home>div {
     font-size: x-large;
     font-weight: bold;
 }
 
-/* 네이게이터 */
 .navigator {
     background-color: #D8E8CF;
 }
 
-.team {
-    display: flex;
-    flex-direction: column;
+
+.nav-link {
+    color: #96A993;
+    font-weight: bold;
 }
 
 /*소개 배경 */
@@ -93,5 +95,6 @@
     width: 350px;
     height: 75px;
 
+    margin-top: 8%;
     margin-bottom: 5%;
 }

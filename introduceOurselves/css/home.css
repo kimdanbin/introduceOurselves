@@ -34,7 +34,7 @@
     background-color: #D8E8CF;
 }
 
-.home {
+.main {
     display: flex;
     flex-direction: column;
 }
@@ -89,8 +89,10 @@
 
 /* 헤더, 네이게이터  */
 
-.header {
+.home {
     height: 120px;
+    color: black;
+    text-decoration-line: none;
     background-color: #B8F25A;
     display: flex;
     flex-direction: column;
@@ -98,7 +100,7 @@
     justify-content: center;
 }
 
-.header > div {
+.home>div {
     font-size: x-large;
     font-weight: bold;
 }
@@ -106,6 +108,7 @@
 .navigator {
     background-color: #D8E8CF;
 }
+
 
 .nav-link {
     color: #96A993;
