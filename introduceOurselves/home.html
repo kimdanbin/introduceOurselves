@@ -22,6 +22,7 @@
     <!-- fontawesome 아이콘 -->
     <script src="https://kit.fontawesome.com/ef26cf54c0.js" crossorigin="anonymous"></script>
 
+    <!-- 외부 js 연결 -->
     <script src="js/homeWeather.js"></script>
 
     <!-- firebase 적용 -->
@@ -80,12 +81,12 @@
                 <div class="weatherIcon g">
                     <!-- <h1 id="todayDate" class="weatherText g">오늘의 날짜</h1> -->
                     <h1 id="weatherSky" class="weatherText g">날씨 로딩중입니다..✨</h1>
-                    <i class="fa fa-sun-o w-icon g" aria-hidden="true"></i>
+                    <!-- <i class="fa fa-sun-o w-icon g" aria-hidden="true"></i> -->
                 </div>
             </div>
-            
+
             <!-- 질문하기 버튼 -->
-            <div class="stickyArea g">
+            <div class="hovertext stickyArea g"  data-hover="'4조🍀'에게 질문하기">
                 <a id="ask" href="ask.html"><i id="askIcon" class="fa fa-commenting fa-4x g" aria-hidden="true"></i></a>
             </div>
 
