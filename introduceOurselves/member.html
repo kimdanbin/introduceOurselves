@@ -4,17 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Introduce Ourselves</title>
+    <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- 외부 스타일 시트 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/member.css">
     <link rel="stylesheet" href="css/index.css">
+    <script src="js/member.js"></script>
 </head>
 
 <body>
+
     <!-- 헤더 부분 -->
-    <div class="header">
-        <a class="home" href="./home.html">
+    <div class="header g">
+        <a class="home g" href="./home.html">
             <div>4조 사줘</div>
             <div>Introduce Ourselves</div>
         </a>
@@ -30,26 +33,8 @@
             </ul>
         </header>
     </div>
-
-    <div class="mycards">
-        <div class="mycardsbox">
-            <div class="mytitle">
-                <h1>이름칸</h1>
-                <button>수정하기</button>
-                <button>삭제하기</button>
-            </div>
-        </div>
-    </div>
-    <div class="mycards">
-        <div class="mycardsbox">
-            <div class="mytitle">
-                <h1>이름칸</h1>
-                <button>수정하기</button>
-                <button>삭제하기</button>
-            </div>
-        </div>
-    </div>
-
+    <div id="data"></div>
 </body>
+
 
 </html>
