@@ -2,7 +2,7 @@
 //제이쿼리 이벤트 메서드 문서가 준비되면 매개변수로 넣은 콜백 함수를 실행하라
 // dom(document object model 문서 객체 모델)이 생성되면 ready 메소드가 실행된다
 $(document).ready(function () {
-    let url = "https://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getVilageFcst?serviceKey=%2FeJ1zHmb8qeEge4qb8RONFKwdOUczYMUhK0L%2Fkbx6LlExpgro4780GzjZP4cN0MeT7IYti4VVsE2W%2BmD0ZfzzA%3D%3D&numOfRows=1000&pageNo=1&dataType=JSON&base_date=20241004&base_time=0500&nx=60&ny=127";
+    let url = "https://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getVilageFcst?serviceKey=%2FeJ1zHmb8qeEge4qb8RONFKwdOUczYMUhK0L%2Fkbx6LlExpgro4780GzjZP4cN0MeT7IYti4VVsE2W%2BmD0ZfzzA%3D%3D&numOfRows=1000&pageNo=1&dataType=JSON&base_date=20241005&base_time=0500&nx=60&ny=127";
     fetch(url).then(res => res.json()).then(data => { ////요청을 받은 데이터는 res라는 이름으로 json화 함
         // gangnamSky 변수 안에 data 넣기
         let gangnamSky = data.response.body.items.item[5];
