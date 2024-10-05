@@ -1,19 +1,4 @@
 
-.header {
-    height: 100px;
-    background-color: #B8F25A;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-
-.navigator {
-    background-color: #D8E8CF;
-}
-
-
 .form-section {
     
     display: flex;
