@@ -112,3 +112,36 @@
   filter: drop-shadow(2px 2px 2px #1dd53c);
   opacity: 85%;
 }
+
+
+/* 마우스 호버시 */
+.hovertext {
+    position: relative;
+    /* border-bottom: 1px dotted black; */
+}
+
+.hovertext:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    
+    width: max-content;
+    background-color: #D8E8CF;
+    opacity: 90;
+    color: #313131;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 5px;
+    transition: opacity 0.4s ease-in-out;
+
+    margin-left: 20px;
+
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 110%;
+}
+
+.hovertext:hover:before {
+    /* opacity: 50; */
+    visibility: visible;
+}
