@@ -14,6 +14,12 @@
     border: 1px solid rgb(192, 2, 255);
 } */
 
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
 /* 네잎클로버 배경 */
 .clover {
     background-image: url(../img/clover.png);
