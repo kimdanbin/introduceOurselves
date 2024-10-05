@@ -7,7 +7,7 @@
     <title>Introduce Ourselves</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/edit screen.css">
+    <link rel="stylesheet" href="css/editscreen.css">
 </head>
 
 <body>
@@ -34,42 +34,53 @@
     <section class="form-section">
         <div class="form-group">
             <label>이름</label>
-            <input type="text">
+            <input type="text" class="content">
         </div>
 
         <div class="form-group">
             <label>MBTI</label>
-            <input type="text">
+            <input type="text" class="content">
         </div>
 
         <div class="form-group">
             <label>장점</label>
-            <input type="text">
+            <input type="text" class="content">
         </div>
 
         <div class="form-group">
             <label>취미</label>
-            <input type="text">
+            <input type="text" class="content">
         </div>
 
         <div class="form-group">
             <label>Github 주소</label>
-            <input type="url">
+            <input type="url" class="content">
         </div>
 
         <div class="form-group">
             <label>블로그 주소</label>
-            <input type="url">
+            <input type="url" class="content">
+        </div>
+
+        <!-- 투명버튼 -->
+        <div class="form-group">
+            <label>사진 첨부</label>
+            <input type="file" id="fileInput" style="display:none;" />
+            <button type="button" class="btn btn-outline-light content" id="photoButton">📷</button>
         </div>
 
         <div class="form-group">
-            <label>사진 첨부</label>
-            <button type="button" class="btn btn-outline-light">📷</button>
+            <button id="submitButton">수정하기</button>
         </div>
-        <!-- 투명버튼 -->
-        <div class="form-group">
-            <button>수정하기</button>
-        </div>
+
+        <!-- head에 script를 넣으면 파일 선택창이 안떠서 body에 넣었더니 작동함🤔-->
+        <script>
+            // 사진 첨부 카메라 버튼 클릭시 파일 선택 창 뜸
+            document.getElementById('photoButton').addEventListener('click', function () {
+                document.getElementById('fileInput').click();
+            });
+        </script>
+
     </section>
 </body>
 
