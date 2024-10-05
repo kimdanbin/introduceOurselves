@@ -14,11 +14,42 @@
     border: 1px solid rgb(192, 2, 255);
 } */
 
+/* 헤더, 네이게이터  */
 
+.home {
+    height: 120px;
+    color: black;
+    text-decoration-line: none;
+    background-color: #B8F25A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.home>div {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.navigator {
+    background-color: #D8E8CF;
+}
+
+
+.nav-link {
+    color: #96A993;
+    font-weight: bold;
+}
+
+/* 메인 */
 .main {
     display: flex;
     flex-direction: column;
+
 }
+
 
 /* 네잎클로버 배경 */
 .clover {
@@ -51,16 +82,16 @@
     color: white;
 }
 
-.w-icon{
+.w-icon {
     font-size: 40px;
     margin-left: 10px;
 }
 
-.weatherText{
+.weatherText {
     margin-top: 10px;
 }
 
-.weatherIcon{
+.weatherIcon {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -68,31 +99,16 @@
 }
 
 
-/* 헤더, 네이게이터  */
+#ask {
+    top: 10px;
 
-.home {
-    height: 120px;
-    color: black;
-    text-decoration-line: none;
-    background-color: #B8F25A;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
+    color: #e1ffe7;
+    float: left;
+    margin-top: 2%;
+    margin-left: 5%;
 }
 
-.home>div {
-    font-size: x-large;
-    font-weight: bold;
-}
-
-.navigator {
-    background-color: #D8E8CF;
-}
-
-
-.nav-link {
-    color: #96A993;
-    font-weight: bold;
+#askIcon{
+  filter: drop-shadow(2px 2px 2px #1dd53c);
+  opacity: 85%;
 }
