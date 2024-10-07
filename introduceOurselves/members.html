@@ -10,6 +10,11 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/member.css">
     <link rel="stylesheet" href="css/index.css">
+    <script>
+        function saveName(name) {
+            localStorage.setItem('name', name);
+        }
+    </script>
 </head>
 
 <body>
@@ -44,14 +49,14 @@
                 <!--이름, 수정, 삭제 버튼 입니다 -->
                 <div class="kdbcardsbox g">
                     <!--주석을 풀면 사진+클릭시 홈페이지로 이동가능 합니다-->
-                    <a href="https://naver.com">
-                        <img src="img/kdb.jpg" alt="테스트중"
-                        style="
+                    <a href="./member.html" onclick="saveName('김단빈')">
+                        <img src="img/kdb.jpg" id="kdbimg" alt="테스트중" style="
                         width: 250px;
                         height: 360px;
                         border-radius: 30px;
                         object-fit: cover;
                         background-position: right;
+                        cursor:pointer;
                         ">
                     </a>
                 </div>
@@ -59,8 +64,8 @@
                     <h1 class="g">김단빈</h1>
                     <!-- <button class="g">수정하기</button>
                     <button class="g">삭제하기</button> -->
-                    <button type="button" onclick="location.href='https://www.naver.com/' ">수정하기</button>
-                    <button type="button" onclick="location.href='https://www.naver.com/' ">삭제하기</button>
+                    <button type="button" onclick="location.href='./members.html' ">수정하기</button>
+                    <button type="button" onclick="location.href='./members.html' ">삭제하기</button>
                 </div>
             </div>
 
@@ -68,9 +73,8 @@
 
             <div class="mycards g">
                 <div class="yyscardsbox g">
-                    <a href="https://naver.com">
-                        <img src="img/yys.jpg" alt="테스트중"
-                        style="
+                    <a href="./member.html" onclick="saveName('유영상')">
+                        <img src="img/yys.jpg" id='yysimg' alt="테스트중" style="
                         width: 250px;
                         height: 360px;
                         border-radius: 30px;
@@ -83,8 +87,8 @@
                     <h1 class="g">유영상</h1>
                     <!-- <button class="g">수정하기</button>
                     <button class="g">삭제하기</button> -->
-                    <button type="button" onclick="location.href='https://www.naver.com/' ">수정하기</button>
-                    <button type="button" onclick="location.href='https://www.naver.com/' ">삭제하기</button>
+                    <button type="button" onclick="location.href='./members.html' ">수정하기</button>
+                    <button type="button" onclick="location.href='./members.html' ">삭제하기</button>
                 </div>
             </div>
 
@@ -92,9 +96,8 @@
 
             <div class="mycards g">
                 <div class="jdhcardsbox g">
-                    <a href="https://naver.com">
-                        <img src="img/jdh.jpg" alt="테스트중"
-                        style="
+                    <a href="./member.html" onclick="saveName('정대현')">
+                        <img src="img/jdh.jpg" alt="테스트중" style="
                         width: 250px;
                         height: 360px;
                         border-radius: 30px;
@@ -107,8 +110,8 @@
                     <h1 class="g">정대현</h1>
                     <!-- <button class="g">수정하기</button>
                     <button class="g">삭제하기</button> -->
-                    <button type="button" onclick="location.href='https://www.naver.com/' ">수정하기</button>
-                    <button type="button" onclick="location.href='https://www.naver.com/' ">삭제하기</button>
+                    <button type="button" onclick="location.href='./members.html' ">수정하기</button>
+                    <button type="button" onclick="location.href='./members.html' ">삭제하기</button>
                 </div>
             </div>
 
@@ -116,9 +119,8 @@
 
             <div class="mycards g">
                 <div class="hjycardsbox g">
-                    <a href="https://naver.com">
-                        <img src="img/hjy.jpg" alt="테스트중"
-                        style="
+                    <a href="./member.html" onclick="saveName('한지연')">
+                        <img src="img/hjy.jpg" alt="테스트중" style="
                         width: 250px;
                         height: 360px;
                         border-radius: 30px;
@@ -131,8 +133,8 @@
                     <h1 class="g">한지연</h1>
                     <!-- <button class="g">수정하기</button>
                     <button class="g">삭제하기</button> -->
-                    <button type="button" onclick="location.href='https://www.naver.com/' ">수정하기</button>
-                    <button type="button" onclick="location.href='https://www.naver.com/' ">삭제하기</button>
+                    <button type="button" onclick="location.href='./members.html' ">수정하기</button>
+                    <button type="button" onclick="location.href='./members.html' ">삭제하기</button>
                 </div>
             </div>
 
@@ -140,9 +142,8 @@
 
             <div class="mycards g">
                 <div class="rbgcardsbox g">
-                    <a href="https://naver.com">
-                        <img src="img/rbg.jpg" alt="테스트중"
-                        style="
+                    <a href="./member.html" onclick="saveName('류병길')">
+                        <img src="img/rbg.jpg" alt="테스트중" style="
                         width: 250px;
                         height: 360px;
                         border-radius: 30px;
@@ -155,17 +156,12 @@
                     <h1 class="g">류병길</h1>
                     <!-- <button class="g">수정하기</button>
                     <button class="g">삭제하기</button> -->
-                    <button type="button" onclick="location.href='https://www.naver.com/' ">수정하기</button>
-                    <button type="button" onclick="location.href='https://www.naver.com/' ">삭제하기</button>
+                    <button type="button" onclick="location.href='./members.html' ">수정하기</button>
+                    <button type="button" onclick="location.href='./members.html' ">삭제하기</button>
                 </div>
             </div>
-
-
-            
         </div>
     </div>
-
 </body>
-
 
 </html>
