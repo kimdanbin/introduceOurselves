@@ -18,7 +18,7 @@ member = {
     mbti: "ENFP",
     blogAddr: "https://velog.io/@isyuyong6732/posts",
     gitAdrr: "https://github.com/Tehepero",
-    image: "/img/yys.jpg",
+    image: "./img/yys.jpg",
     merit: "친화적인 성격을 가지고 있습니다 :)",
     hobby: "게임하기....",
     comment: "같이 화이팅해서 잘 해봐요 :)"
@@ -31,7 +31,7 @@ member = {
     mbti: "INTP",
     blogAddr: "https://velog.io/@fbqudrlf09/posts",
     gitAdrr: "https://github.com/fbqudrlf09",
-    image: "/img/rbg.jpg",
+    image: "./img/rbg.jpg",
     merit: "모든 일에 신중함을 가짐",
     hobby: "여행, 유튜브 시청",
     comment: "아자 아자 화이팅!!"
@@ -44,7 +44,7 @@ member = {
     mbti: "ESFP",
     blogAddr: "https://uhnn-archive.tistory.com",
     gitAdrr: "https://github.com/j-hann",
-    image: "/img/hjy.jpg",
+    image: "./img/hjy.jpg",
     merit: "긍정적으로 생각하며 좋은 점을 보려고 노력합니다 ^_^",
     hobby: "여행, 홈트",
     comment: "다같이 화이링!!!!!"
@@ -57,7 +57,7 @@ member = {
     mbti: "INTJ",
     blogAddr: "https://daehyeonj41.tistory.com/1",
     gitAdrr: "https://github.com/JEONGDAEHYUN",
-    image: "/img/jdh.jpg",
+    image: "./img/jdh.jpg",
     merit: "꼼꼼하고 탐구심이 강합니다.",
     hobby: "주식 투자",
     comment: "가보자고"
